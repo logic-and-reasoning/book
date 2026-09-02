@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://logic-and-reasoning.github.io/book/sitemap.xml
