@@ -1,0 +1,1435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- ==========================================================
+     Metadata & SEO
+=========================================================== -->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18121660236"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+  gtag('config', 'AW-18121660236');
+</script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Smart Logic and Reasoning | Rajat Kumar Mohanty</title>
+
+<meta name="description"
+      content="Smart Logic and Reasoning: Awakening Natural Intelligence in an Age of AI. A practical exploration of clear thinking, deduction, induction, abduction, analogy, logical fallacies, and integrated reasoning.">
+
+<meta name="author"
+      content="Rajat Kumar Mohanty">
+
+<meta name="robots"
+      content="index,follow,max-image-preview:large">
+
+<meta name="theme-color"
+      content="#ffffff">
+
+<link rel="canonical"
+      href="https://logic-and-reasoning.github.io/book/">
+
+<!-- ==========================================================
+     Favicon
+     
+     PLACEHOLDER:
+     Replace images/favicon.png when final favicon is ready.
+=========================================================== -->
+
+<link rel="icon"
+      href="images/favicon.ico"
+      type="image/png">
+
+<link rel="apple-touch-icon"
+      href="images/favicon.ico">
+
+
+<!-- ==========================================================
+     Open Graph
+     
+     PLACEHOLDER:
+     ebook_TitlePage.jpg can be replaced by a dedicated
+     social-preview image later if desired.
+=========================================================== -->
+
+<meta property="og:title"
+      content="Smart Logic and Reasoning">
+
+<meta property="og:description"
+      content="Awakening Natural Intelligence in an Age of AI">
+
+<meta property="og:type"
+      content="book">
+
+<meta property="og:url"
+      content="https://logic-and-reasoning.github.io/book/">
+
+<meta property="og:image"
+      content="https://logic-and-reasoning.github.io/book/images/ebook_TitlePage.jpg">
+
+<meta property="og:image:alt"
+      content="Cover of Smart Logic and Reasoning by Rajat Kumar Mohanty">
+
+<meta property="og:site_name"
+      content="Smart Logic and Reasoning">
+
+<meta property="og:locale"
+      content="en_US">
+
+
+<!-- ==========================================================
+     Twitter / X
+=========================================================== -->
+
+<meta name="twitter:card"
+      content="summary_large_image">
+
+<meta name="twitter:title"
+      content="Smart Logic and Reasoning">
+
+<meta name="twitter:description"
+      content="Awakening Natural Intelligence in an Age of AI">
+
+<meta name="twitter:image"
+      content="https://logic-and-reasoning.github.io/book/images/ebook_TitlePage.jpg">
+
+
+<!-- ==========================================================
+     Google Search Console Verification
+     
+     PLACEHOLDER:
+     Add the actual verification token if this property is
+     separately verified in Google Search Console.
+=========================================================== -->
+
+<!--
+<meta name="google-site-verification"
+      content="YOUR_VERIFICATION_TOKEN">
+-->
+<meta name="google-site-verification" content="nXJcDitnBooafG1R2mESwlmGmdtX25nwbVotnvsiID0" />
+
+
+<!-- ==========================================================
+     Styles
+=========================================================== -->
+
+<style>
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root{
+  --bg:#f6f7f9;
+  --surface:#ffffff;
+  --text:#222;
+  --muted:#666;
+  --border:#e3e6ea;
+
+  /* Book-specific accent */
+  --accent:#315f8c;
+  --accent-dark:#24496d;
+
+  --shadow:0 8px 24px rgba(0,0,0,.06);
+  --radius:14px;
+  --max-width:920px;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  margin:0;
+  padding:0 0 90px;
+  background:var(--bg);
+  color:var(--text);
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Arial,
+    sans-serif;
+  font-size:16px;
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+
+img{
+  display:block;
+  max-width:100%;
+  height:auto;
+}
+
+a{
+  color:inherit;
+}
+
+.container{
+  max-width:var(--max-width);
+  margin:0 auto;
+  padding:20px 16px 8px;
+}
+
+
+/* ==========================================================
+   Hero
+=========================================================== */
+
+.hero{
+  background:var(--surface);
+  border-bottom:1px solid var(--border);
+  box-shadow:var(--shadow);
+}
+
+.hero-container{
+  max-width:var(--max-width);
+  margin:auto;
+  padding:32px 18px;
+
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:28px;
+}
+
+.hero-image img{
+  width:min(240px,70vw);
+  border-radius:8px;
+  border:1px solid var(--border);
+  box-shadow:0 12px 30px rgba(0,0,0,.12);
+}
+
+.hero-text{
+  text-align:center;
+}
+
+h1{
+  margin:0 0 12px;
+  font-size:clamp(2rem,4vw,2.6rem);
+  line-height:1.15;
+}
+.smart-word{
+  font-style:italic;
+  font-weight:200;
+  letter-spacing:-0.01em;
+}
+
+h2{
+  margin:0 0 8px;
+  font-size:1.2rem;
+  line-height:1.1;
+}
+
+h3{
+  margin:1rem 0 .3rem;
+  font-size:1rem;
+}
+
+p{
+  margin:.6rem 0;
+}
+
+.highlight{
+  font-weight:700;
+}
+
+.hero-cta-block{
+  margin-top:1.4rem;
+}
+
+.cta{
+  display:inline-block;
+  padding:.5rem .9rem;
+  font-size:.95rem;
+  background:var(--accent);
+  color:#fff;
+  text-decoration:none;
+  border-radius:999px;
+  font-weight:700;
+  transition:.2s ease;
+}
+
+.cta:hover,
+.cta:focus-visible{
+  background:var(--accent-dark);
+  transform:translateY(-1px);
+}
+
+.subnote{
+  margin:.45rem 0;
+  color:var(--muted);
+  font-size:.95rem;
+}
+
+.subnote a:hover,
+.subnote a:focus-visible{
+  text-decoration:underline;
+}
+
+
+/* ==========================================================
+   Sections
+=========================================================== */
+
+.section{
+  margin:4px 0;
+  padding:8px 10px;
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  box-shadow:0 2px 10px rgba(0,0,0,.03);
+}
+
+.section:first-child{
+  margin-top:0;
+}
+
+ul{
+  padding-left:1.25rem;
+}
+
+li+li{
+  margin-top:.25rem;
+}
+
+
+/* ==========================================================
+   Model Box
+=========================================================== */
+
+.model-box{
+  margin:1rem 0;
+  padding:14px 16px;
+  border-left:4px solid var(--accent);
+  background:#f7f9fb;
+  border-radius:8px;
+  font-weight:600;
+}
+
+
+/* ==========================================================
+   Sample / Details
+=========================================================== */
+
+.preview-group{
+  margin-top:1rem;
+}
+
+.preview-toggle{
+  margin-top:12px;
+  border:1px solid var(--border);
+  border-radius:10px;
+  background:#fcfcfd;
+  overflow:hidden;
+}
+
+.preview-toggle summary{
+  list-style:none;
+  cursor:pointer;
+  padding:14px 16px;
+  font-weight:600;
+}
+
+.preview-toggle summary::-webkit-details-marker{
+  display:none;
+}
+
+.preview-toggle summary::before{
+  content:"▶";
+  margin-right:.6rem;
+  display:inline-block;
+  transition:transform .2s;
+}
+
+.preview-toggle[open] summary::before{
+  transform:rotate(90deg);
+}
+
+.preview-box{
+  padding:0 16px 16px;
+  border-top:1px solid var(--border);
+}
+
+.preview-box p:last-child{
+  margin-bottom:0;
+}
+
+.sample-note{
+  color:var(--muted);
+  font-size:.92rem;
+}
+
+
+/* ==========================================================
+   Contact
+=========================================================== */
+
+.contact-section{
+  text-align:center;
+  padding:6px 8px;
+}
+
+.contact-section p{
+  margin:0 0 .5rem;
+}
+
+
+/* ==========================================================
+   Footer
+=========================================================== */
+
+.footer{
+  background:var(--surface);
+  border-top:1px solid var(--border);
+  text-align:center;
+  color:var(--muted);
+  font-size:0.6rem;
+  padding:8px 0;
+  margin-top:4px;
+}
+
+.footer p{
+  max-width:var(--max-width);
+  margin:.2rem auto;
+}
+
+
+/* ==========================================================
+   Sticky "Get the Book" CTA
+
+   Hidden by default.
+   JavaScript displays it only after the visitor reaches
+   the last 20% of the page.
+=========================================================== */
+
+.sticky-cta{
+  display:none;
+
+  position:fixed;
+  left:50%;
+  bottom:12px;
+  transform:translateX(-50%);
+
+  width:auto;
+  padding:8px 12px;
+
+  font-size:.8rem;
+
+  background:var(--accent);
+  color:#fff;
+
+  text-decoration:none;
+  border-radius:999px;
+
+  font-weight:700;
+
+  box-shadow:0 10px 25px rgba(0,0,0,.18);
+
+  z-index:1000;
+}
+
+.sticky-cta:hover{
+  background:var(--accent-dark);
+}
+
+a:focus-visible,
+summary:focus-visible{
+  outline:3px solid #4d90fe;
+  outline-offset:3px;
+}
+
+
+/* ==========================================================
+   Tablet / Desktop
+=========================================================== */
+
+@media (min-width:768px){
+
+  body{
+    font-size:16px;
+    line-height:1.5;
+  }
+
+  .hero-container{
+    flex-direction:row;
+    align-items:center;
+    gap:36px;
+    padding:48px 24px;
+  }
+
+  .hero-text{
+    text-align:left;
+    flex:1;
+  }
+
+  .hero-image img{
+    width:260px;
+  }
+
+  .container{
+    padding:20px 16px 10px;
+  }
+
+  .section{
+    padding:24px;
+  }
+
+  .sticky-cta{
+    left:auto;
+    right:24px;
+    bottom:24px;
+    padding:8px 14px;
+    border-radius:10px;
+  }
+
+}
+
+
+@media (min-width:1100px){
+
+  .hero-container,
+  .container{
+    max-width:900px;
+  }
+
+  body{
+    font-size:16.5px;
+    line-height:1.5;
+  }
+
+}
+
+</style>
+
+
+<!-- ==========================================================
+     Structured Data
+=========================================================== -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "name": "Smart Logic and Reasoning: Awakening Natural Intelligence in an Age of AI",
+  "author": {
+    "@type": "Person",
+    "name": "Rajat Kumar Mohanty"
+  },
+  "description": "A practical exploration of clear thinking, deduction, induction, abduction, analogy, logical fallacies, and integrated reasoning in an age of artificial intelligence.",
+  "inLanguage": "en",
+  "url": "https://logic-and-reasoning.github.io/book/"
+}
+</script>
+
+</head>
+
+
+<body>
+
+
+<!-- ==========================================================
+     Hero
+=========================================================== -->
+
+<header class="hero">
+
+  <div class="hero-container">
+
+    <!-- LEFT: BOOK -->
+
+    <div class="hero-image">
+
+      <!-- PLACEHOLDER:
+           Replace with the final cover image if necessary.
+      -->
+
+      <img
+        src="images/logic-reasoning-coverpage.png"
+        alt="Cover of Smart Logic and Reasoning by Rajat Kumar Mohanty"
+        loading="lazy"
+        width="300"
+        height="450">
+
+    </div>
+
+
+    <!-- RIGHT: TEXT -->
+
+    <div class="hero-text">
+     <h1> <span class="smart-word">Smart</span> Logic and Reasoning </h1>
+
+<p> A practical exploration of clear thinking, reasoning, and intelligent decision-making in an age of AI. </p>
+
+<div class="hero-cta-block">
+
+<a id="main-cta" class="cta" href="#" target="_blank" rel="noopener noreferrer">
+📘 Get the Book
+</a>
+
+</div>
+
+    </div>
+
+  </div>
+
+</header>
+
+
+<!-- ==========================================================
+     Main Content
+=========================================================== -->
+
+<main class="container">
+
+
+<!-- ==========================================================
+     CORE
+=========================================================== -->
+
+<div class="section">
+
+  <h2>🧠 Thinking Clearly</h2>
+
+  <p>
+    Clear thinking begins with the ability to distinguish what is
+    observed from what is assumed, what is known from what is believed,
+    and what is supported by evidence from what merely appears convincing.
+  </p>
+
+  <p>
+    Reasoning becomes stronger when observations are examined carefully,
+    assumptions are made explicit, and conclusions remain open to revision.
+  </p>
+
+</div>
+
+
+<!-- ==========================================================
+     WHAT THE BOOK EXPLORES
+=========================================================== -->
+
+<div class="section">
+
+  <h2>📘 What This Book Explores</h2>
+
+  <p>
+    The book develops reasoning progressively, beginning with clear
+    thinking and moving through four major reasoning patterns before
+    bringing them together in complex situations.
+  </p>
+
+  <ul>
+
+    <li>
+      <strong>Deductive reasoning</strong> from rules and premises
+      to logically necessary conclusions
+    </li>
+
+    <li>
+      <strong>Inductive reasoning</strong> from observations and
+      patterns to broader conclusions
+    </li>
+
+    <li>
+      <strong>Abductive reasoning</strong> for identifying the most
+      plausible explanation
+    </li>
+
+    <li>
+      <strong>Analogical reasoning</strong> for transferring knowledge
+      and generating new ideas
+    </li>
+
+    <li>
+      <strong>Logical fallacies</strong> and common errors in reasoning
+    </li>
+
+    <li>
+      <strong>Integrated reasoning</strong> for complex real-world
+      decisions
+    </li>
+
+  </ul>
+
+</div>
+
+
+<!-- ==========================================================
+     INSIDE THE BOOK
+=========================================================== -->
+
+<div class="section">
+
+  <h2>🔍 Inside the Book</h2>
+
+  <p>
+    The seven chapters follow a progression from individual reasoning
+    patterns to their integration in everyday, academic, professional,
+    and AI-assisted thinking.
+  </p>
+
+
+  <p>
+    <strong>Chapter 1 — Thinking Clearly</strong><br>
+    Foundations of clear thinking, observation, judgment, facts,
+    assumptions, beliefs, opinions, cognitive biases, coherent thinking,
+    better questions, and thinking in everyday life.
+  </p>
+
+
+  <p>
+    <strong>Chapter 2 — Deductive Reasoning</strong><br>
+    Rules, premises, conclusions, validity, soundness, syllogisms,
+    everyday reasoning, research, artificial intelligence, and common
+    mistakes.
+  </p>
+
+
+  <p>
+    <strong>Chapter 3 — Inductive Reasoning</strong><br>
+    Evidence, patterns, generalisation, probability, uncertainty,
+    everyday reasoning, research, and machine learning.
+  </p>
+
+
+  <p>
+    <strong>Chapter 4 — Abductive Reasoning</strong><br>
+    Unexpected observations, plausible explanations, diagnostic
+    reasoning, detective work, scientific discovery, research,
+    and artificial intelligence.
+  </p>
+
+
+  <p>
+    <strong>Chapter 5 — Analogical Reasoning</strong><br>
+    Similarity, transfer of knowledge, problem solving, innovation,
+    teaching, communication, research models, and AI embeddings.
+  </p>
+
+
+  <p>
+    <strong>Chapter 6 — Logical Fallacies</strong><br>
+    Formal and informal fallacies, recognising flawed arguments,
+    and understanding how apparently persuasive reasoning can fail.
+  </p>
+
+
+  <p>
+    <strong>Chapter 7 — Integrating Reasoning: Choosing the Right Pattern</strong><br>
+    Integrated reasoning in everyday decisions, scientific inquiry,
+    research, professional decision-making, the age of AI, and the
+    cultivation of better reasoning habits.
+  </p>
+
+</div>
+
+
+<!-- ==========================================================
+     FOUR REASONING PATTERNS
+=========================================================== -->
+
+<div class="section">
+
+  <h2>🧩 Four Major Reasoning Patterns</h2>
+
+  <p>
+    Each reasoning pattern serves a different purpose. Effective
+    reasoning depends on recognising which approach best fits the
+    problem.
+  </p>
+
+
+  <p>
+    <strong>Deduction</strong><br>
+    What must follow from accepted premises?
+  </p>
+
+  <p>
+    <strong>Induction</strong><br>
+    What broader pattern is supported by the observations?
+  </p>
+
+  <p>
+    <strong>Abduction</strong><br>
+    What explanation best accounts for the evidence?
+  </p>
+
+  <p>
+    <strong>Analogy</strong><br>
+    What can be learned from a relevantly similar situation?
+  </p>
+
+
+  <div class="model-box">
+    No single reasoning pattern is sufficient for every problem.
+    Mature reasoning depends on selecting, combining, and adapting
+    different approaches as the situation changes.
+  </div>
+
+</div>
+
+
+<!-- ==========================================================
+     INTEGRATED REASONING
+=========================================================== -->
+
+<div class="section">
+
+  <h2>🔗 Integrating Reasoning</h2>
+
+  <p>
+    Complex problems rarely remain within a single category of reasoning.
+    An observation may suggest an explanation. That explanation may be
+    tested through deduction, compared with previous experience,
+    evaluated against evidence, and revised when new information appears.
+  </p>
+
+  <p>
+    Chapter 7 brings the earlier reasoning patterns together and examines
+    how they operate in:
+  </p>
+
+  <ul>
+
+    <li>Everyday decision-making</li>
+
+    <li>Scientific inquiry</li>
+
+    <li>Academic research</li>
+
+    <li>Professional decision-making</li>
+
+    <li>Reasoning in the age of AI</li>
+
+  </ul>
+
+</div>
+
+
+<!-- ==========================================================
+     REASONING AND RESEARCH
+=========================================================== -->
+
+<div class="section">
+
+  <h2>🔬 Reasoning Through Research</h2>
+
+  <p>
+    Research is more than collecting data and analysing results.
+    It is a continuous process of reasoning through which observations
+    become questions, hypotheses lead to predictions, evidence is
+    evaluated, and explanations are refined.
+  </p>
+
+  <p>
+    The research process illustrates how different reasoning patterns
+    contribute at different stages while remaining part of a larger
+    integrated process.
+  </p>
+
+</div>
+
+
+<!-- ==========================================================
+     PROFESSIONAL DECISION-MAKING
+=========================================================== -->
+
+<div class="section">
+
+  <h2>⚖️ Professional Decision-Making</h2>
+
+  <p>
+    Professional problems rarely resemble textbook examples. They
+    involve uncertainty, incomplete information, competing priorities,
+    practical constraints, and significant consequences.
+  </p>
+
+  <p>
+    Effective professional judgment combines evidence, explanation,
+    logical analysis, experience, critical evaluation, reflection,
+    and ethical responsibility.
+  </p>
+
+  <p>
+    The same underlying reasoning process appears across medicine,
+    engineering, law, management, public policy, education, and other
+    professional contexts.
+  </p>
+
+</div>
+
+
+<!-- ==========================================================
+     REASONING IN THE AGE OF AI
+=========================================================== -->
+
+<div class="section">
+
+  <h2>🤖 Reasoning in the Age of AI</h2>
+
+  <p>
+    Artificial intelligence can process large volumes of information,
+    recognise patterns, generate responses, and assist with analysis
+    at remarkable speed.
+  </p>
+
+  <p>
+    These capabilities do not remove the need for human reasoning.
+    Users still need to evaluate evidence, question assumptions,
+    recognise uncertainty, compare explanations, and determine whether
+    an AI-generated answer is appropriate for the situation.
+  </p>
+
+  <p class="highlight">
+    The challenge is not to choose between natural intelligence and
+    artificial intelligence, but to use intelligent tools without
+    surrendering human judgment.
+  </p>
+
+</div>
+
+
+<!-- ==========================================================
+     BETTER REASONING HABITS
+=========================================================== -->
+
+<div class="section">
+
+  <h2>🌱 Cultivating Better Reasoning Habits</h2>
+
+  <p>
+    Reasoning develops through deliberate practice. Chapter 7 concludes
+    by examining habits that strengthen clear and disciplined thinking.
+  </p>
+
+  <ul>
+
+    <li>
+      <strong>Observe carefully</strong> before reaching conclusions.
+    </li>
+
+    <li>
+      <strong>Question and evaluate</strong> claims and evidence.
+    </li>
+
+    <li>
+      <strong>Reflect and write</strong> to clarify thinking.
+    </li>
+
+    <li>
+      <strong>Learn through dialogue</strong> and consider alternative
+      perspectives.
+    </li>
+
+    <li>
+      <strong>Continue learning</strong> and remain willing to revise
+      conclusions.
+    </li>
+
+  </ul>
+
+</div>
+
+
+<!-- ==========================================================
+     READ A SAMPLE
+=========================================================== -->
+
+<div class="section">
+
+  <h2>📖 Read a Sample</h2>
+
+  <p>
+    Selected excerpts from the book will be made available here.
+  </p>
+
+  <div class="preview-group">
+
+
+    <details class="preview-toggle" open>
+
+      <summary>
+        Chapter 1 — Thinking Clearly
+      </summary>
+
+      <div class="preview-box">
+
+        <p>
+          Clear thinking begins with careful observation and with
+          recognising the difference between what is actually known
+          and what is merely assumed.
+        </p>
+
+        <p>
+          The ability to question an initial impression is one of
+          the foundations of disciplined reasoning.
+        </p>
+
+      </div>
+
+    </details>
+
+
+    <details class="preview-toggle">
+
+      <summary>
+        Chapter 7 — Integrating Reasoning
+      </summary>
+
+      <div class="preview-box">
+
+        <p>
+          Complex problems are rarely solved through a single form
+          of reasoning. Different reasoning patterns contribute at
+          different stages of the same investigation.
+        </p>
+
+        <p class="highlight">
+          Reliable judgment emerges from their careful coordination.
+        </p>
+
+      </div>
+
+    </details>
+
+
+  </div>
+
+  <p class="sample-note">
+    Additional sample material and online resources may be added
+    as the companion website develops.
+  </p>
+
+</div>
+
+
+<!-- ==========================================================
+     IS THIS BOOK FOR YOU?
+=========================================================== -->
+
+<div class="section">
+
+  <h2>👤 Is This Book For You?</h2>
+
+  <p>
+    The book is intended for readers who want to understand reasoning
+    as a practical human capability rather than as a collection of
+    isolated rules.
+  </p>
+
+  <ul>
+
+    <li>
+      <strong>Students</strong> developing logical and analytical
+      reasoning skills
+    </li>
+
+    <li>
+      <strong>Researchers and educators</strong> interested in evidence,
+      inquiry, and disciplined reasoning
+    </li>
+
+    <li>
+      <strong>Professionals</strong> making decisions under uncertainty
+    </li>
+
+    <li>
+      <strong>Examination candidates</strong> strengthening foundational
+      reasoning skills
+    </li>
+
+    <li>
+      <strong>AI users</strong> who want to evaluate AI-generated
+      information thoughtfully
+    </li>
+
+    <li>
+      <strong>Lifelong learners</strong> interested in clearer and
+      more reflective thinking
+    </li>
+
+  </ul>
+
+</div>
+
+
+<!-- ==========================================================
+     FURTHER READING
+=========================================================== -->
+
+<div class="section">
+
+  <h2>📚 Further Reading</h2>
+
+  <p>
+    This book focuses on logic and reasoning as foundations of
+    natural intelligence.
+  </p>
+
+  <p>
+    For readers interested in the broader nature of human intelligence,
+    including perception, language, memory, learning, creativity,
+    judgment, and human potential in the age of AI, a related work is:
+  </p>
+
+  <p>
+    <strong>
+      <em>
+        Natural Intelligence: Awakening Human Potential in an Age of AI (forthcoming)
+      </em>
+    </strong>
+  </p>
+
+  <p>
+    The two books can be read independently while exploring
+    different aspects of human intelligence.
+  </p>
+
+  <!-- PLACEHOLDER:
+       Final Natural Intelligence website URL:
+       https://natural-intelligence.github.io/book/
+       
+       Add the link when that site is ready.
+  -->
+
+</div>
+
+
+<!-- ==========================================================
+     FAQ
+=========================================================== -->
+
+<div class="section">
+
+  <h2>❓ Frequently Asked Questions</h2>
+
+
+  <details class="preview-toggle">
+
+    <summary>
+      Is this book only about formal logic?
+    </summary>
+
+    <div class="preview-box">
+
+      <p>
+        No. Formal logic is part of the foundation, but the book
+        also examines induction, abduction, analogy, logical
+        fallacies, integrated reasoning, research, professional
+        judgment, and reasoning in the age of AI.
+      </p>
+
+    </div>
+
+  </details>
+
+
+  <details class="preview-toggle">
+
+    <summary>
+      What are the four major reasoning patterns?
+    </summary>
+
+    <div class="preview-box">
+
+      <p>
+        The book examines deductive, inductive, abductive, and
+        analogical reasoning. Each serves a different purpose and
+        has different strengths and limitations.
+      </p>
+
+    </div>
+
+  </details>
+
+
+  <details class="preview-toggle">
+
+    <summary>
+      Why is integrated reasoning important?
+    </summary>
+
+    <div class="preview-box">
+
+      <p>
+        Complex problems often require several forms of reasoning.
+        Effective thinking depends on selecting the approach that
+        best fits each stage of the problem and adapting when new
+        evidence appears.
+      </p>
+
+    </div>
+
+  </details>
+
+
+  <details class="preview-toggle">
+
+    <summary>
+      Does the book discuss artificial intelligence?
+    </summary>
+
+    <div class="preview-box">
+
+      <p>
+        Yes. AI is examined in relation to deduction, induction,
+        abduction, analogy, and integrated reasoning. The final
+        chapter also considers the role of human reasoning when
+        working with increasingly capable AI systems.
+      </p>
+
+    </div>
+
+  </details>
+
+
+  <details class="preview-toggle">
+
+    <summary>
+      Is the book useful for examination preparation?
+    </summary>
+
+    <div class="preview-box">
+
+      <p>
+        The book develops foundational logical, analytical, and
+        reasoning skills that can support examination preparation.
+        It is not presented as a syllabus-specific examination
+        manual.
+      </p>
+
+    </div>
+
+  </details>
+
+
+  <details class="preview-toggle">
+
+    <summary>
+      Can reasoning skills be improved?
+    </summary>
+
+    <div class="preview-box">
+
+      <p>
+        Yes. Careful observation, critical evaluation, reflection,
+        constructive dialogue, deliberate practice, and continuous
+        learning can strengthen reasoning over time.
+      </p>
+
+    </div>
+
+  </details>
+
+
+</div>
+
+
+<!-- ==========================================================
+     READER FEEDBACK
+=========================================================== -->
+
+<div class="section contact-section">
+
+  <p>
+    Have feedback, questions, or suggestions about the book?
+  </p>
+
+
+  <!-- ========================================================
+       PLACEHOLDER:
+       Replace # with the final Google Forms URL.
+  ========================================================= -->
+
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSffH0rykjwWjb-FpPwSqVMQ7j653SRC3aZSuYRMmPC68OnXAw/viewform?usp=header"
+     target="_blank"
+     rel="noopener noreferrer"
+     class="cta">
+    ✍️ Share Feedback
+  </a>
+
+</div>
+
+
+</main>
+
+
+<!-- ==========================================================
+     FOOTER
+=========================================================== -->
+
+<footer class="footer">
+
+  <p>
+    © 2026 Rajat Kumar Mohanty
+  </p>
+
+  <p>
+    <em>
+      Smart Logic and Reasoning: Awakening Natural Intelligence
+      in an Age of AI
+    </em>
+  </p>
+
+</footer>
+
+
+<!-- ==========================================================
+     STICKY GET THE BOOK BUTTON
+
+     Hidden initially.
+     Appears only when the visitor has scrolled through
+     80% or more of the page.
+=========================================================== -->
+
+<!-- PLACEHOLDER:
+     Replace # with final Amazon / KDP / retailer URL.
+-->
+
+<a href="#"
+   id="sticky-book-cta"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="sticky-cta">
+  📘 Get the Book
+</a>
+
+
+<!-- ==========================================================
+     JavaScript
+=========================================================== -->
+
+<script>
+
+document.addEventListener("DOMContentLoaded", () => {
+
+
+  // ==========================================================
+  // Preview accordions
+  //
+  // Keep only one preview open at a time.
+  // ==========================================================
+
+  const previewToggles =
+    document.querySelectorAll(".preview-toggle");
+
+  previewToggles.forEach((detailsElement) => {
+
+    detailsElement.addEventListener("toggle", (event) => {
+
+      const currentDetails = event.currentTarget;
+
+      if (!currentDetails.open) {
+        return;
+      }
+
+      previewToggles.forEach((otherDetails) => {
+
+        if (otherDetails !== currentDetails) {
+          otherDetails.removeAttribute("open");
+        }
+
+      });
+
+    });
+
+  });
+
+
+  // ==========================================================
+  // Sticky "Get the Book" CTA
+  //
+  // Hidden until the visitor reaches the final 20%
+  // of the page.
+  //
+  // 0%   = top of page
+  // 80%  = beginning of final 20%
+  // 100% = bottom of page
+  // ==========================================================
+
+  const stickyCTA =
+    document.getElementById("sticky-book-cta");
+
+
+  if (stickyCTA) {
+
+    const updateStickyCTA = () => {
+
+      const scrollTop =
+        window.scrollY ||
+        document.documentElement.scrollTop;
+
+      const documentHeight =
+        document.documentElement.scrollHeight;
+
+      const viewportHeight =
+        window.innerHeight;
+
+      const scrollableHeight =
+        documentHeight - viewportHeight;
+
+
+      /* Avoid division by zero on very short pages. */
+
+      if (scrollableHeight <= 0) {
+
+        stickyCTA.style.display = "none";
+        return;
+
+      }
+
+
+      const scrollPercentage =
+        scrollTop / scrollableHeight;
+
+
+      if (scrollPercentage >= 0.80) {
+
+        stickyCTA.style.display = "inline-block";
+
+      } else {
+
+        stickyCTA.style.display = "none";
+
+      }
+
+    };
+
+
+    window.addEventListener(
+      "scroll",
+      updateStickyCTA,
+      { passive: true }
+    );
+
+
+    window.addEventListener(
+      "resize",
+      updateStickyCTA
+    );
+
+
+    /* Set correct initial state. */
+
+    updateStickyCTA();
+
+  }
+
+});
+
+</script>
+
+</body>
+</html>
