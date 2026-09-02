@@ -67,11 +67,11 @@ It also considers how these reasoning abilities remain important when working wi
 
 ## 📚 Get the Book
 
-👉 [Choose an Edition](https://logic-and-reasoning.github.io/book/)
+👉 [Choose an Edition](https://logic-and-reasoning.github.io/book/editions.html)
 
 Available through:
 
-- 📱 Kindle Edition
+- 📱 Kindle Edition · Worldwide
 - 📘 Paperback · Worldwide
 - 🇮🇳 Paperback · India
   - Amazon.in
@@ -86,4 +86,4 @@ Rajat Kumar Mohanty
 
 Reader feedback, questions, and suggestions are welcome.
 
-👉 [Share Feedback](#)
+👉 [Share Feedback](https://docs.google.com/forms/d/e/1FAIpQLSffH0rykjwWjb-FpPwSqVMQ7j653SRC3aZSuYRMmPC68OnXAw/viewform?usp=header)
