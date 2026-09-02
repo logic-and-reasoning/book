@@ -189,16 +189,26 @@
       font-size: clamp(1.8rem, 5vw, 2.5rem);
       line-height: 1.15;
     }
+.smart-word {
+  font-style: italic;
+  font-weight: 200;
+  color: #315f8c;
+}
+
+.logic-word {
+  color: #222;
+  font-weight: 700;
+}
+
+.subtitle {
+  margin: .55rem 0 0;
+  color: #315f8c;
+  font-size: 1rem;
+  font-weight: 500;
+}
 
 
-    .smart-word {
-      font-style: italic;
-      font-weight: 200;
-      letter-spacing: -0.01em;
-    }
-
-
-    .page-header p {
+.page-header p {
       margin: .55rem 0 0;
 
       color: var(--muted);
@@ -298,7 +308,21 @@
       grid-column: span 3;
     }
 
+.worldwide-section {
+  margin-bottom: 18px;
+}
 
+.worldwide-heading,
+.india-heading {
+  margin-bottom: 9px;
+
+  text-align: center;
+
+  color: var(--text);
+
+  font-size: .98rem;
+  font-weight: 600;
+}
     /* ==========================================================
        India Section
     =========================================================== */
@@ -479,114 +503,120 @@
 
     <header class="page-header">
 
-      <h1>
-        <span class="smart-word">Smart</span>
-        Logic and Reasoning
-      </h1>
+   <h1>
+  <span class="smart-word">Smart</span>
+  <span class="logic-word">Logic and Reasoning</span>
+</h1>
 
-      <p>
-        Awakening Natural Intelligence in an Age of AI
-      </p>
+<p class="subtitle">
+  Awakening Natural Intelligence in an Age of AI
+</p>
 
     </header>
 
 
-    <!-- ========================================================
-         Buying Options
-    ========================================================= -->
+  <!-- ========================================================
+     Buying Options
+========================================================= -->
 
-    <section class="editions"
-             aria-labelledby="edition-heading">
+<section class="editions"
+         aria-labelledby="edition-heading">
 
-      <h2 id="edition-heading">
-        Choose an Edition
-      </h2>
-
-
-      <div class="edition-grid">
+  <h2 id="edition-heading">
+    Choose an Edition
+  </h2>
 
 
-        <!-- Kindle -->
+  <!-- Worldwide -->
 
-        <a class="edition edition-wide"
-           href="#"
-           target="_blank"
-           rel="noopener noreferrer">
+  <div class="worldwide-section">
 
-          📱 Kindle
-
-        </a>
+    <div class="worldwide-heading">
+      🌐 Paperback &amp; Kindle · Worldwide
+    </div>
 
 
-        <!-- Worldwide Paperback -->
+    <div class="edition-grid">
 
-        <a class="edition edition-wide"
-           href="#"
-           target="_blank"
-           rel="noopener noreferrer">
+      <!-- Kindle -->
 
-          📘 Paperback Worldwide
+      <a class="edition edition-wide"
+         href="https://www.amazon.com/SMART-LOGIC-REASONING-Awakening-Intelligence-ebook/dp/B0HGBS4HL1/"
+         target="_blank"
+         rel="noopener noreferrer">
 
-        </a>
+        📱 Kindle
 
-
-        <!-- India -->
-
-        <div class="india-section">
-
-          <div class="india-heading">
-            🇮🇳 Paperback · India
-          </div>
+      </a>
 
 
-          <div class="india-options">
+      <!-- Worldwide Paperback -->
+
+      <a class="edition edition-wide"
+         href="https://www.amazon.com/dp/9334467134/"
+         target="_blank"
+         rel="noopener noreferrer">
+
+        📘 Paperback
+
+      </a>
+
+    </div>
+
+  </div>
 
 
-            <!-- Amazon.in -->
+  <!-- India -->
 
-            <a class="edition edition-india"
-               href="#"
-               target="_blank"
-               rel="noopener noreferrer">
+  <div class="india-section">
 
-              Amazon.in
-
-            </a>
+    <div class="india-heading">
+      🇮🇳 Paperback · India
+    </div>
 
 
-            <!-- Flipkart -->
+    <div class="india-options">
 
-            <a class="edition edition-india"
-               href="#"
-               target="_blank"
-               rel="noopener noreferrer">
+      <!-- Amazon.in -->
 
-              Flipkart
+      <a class="edition edition-india"
+         href="#"
+         target="_blank"
+         rel="noopener noreferrer">
 
-            </a>
+        Amazon.in
 
-
-            <!-- ZiffyBees -->
-
-            <a class="edition edition-india"
-               href="https://ziffybees.com/"
-               target="_blank"
-               rel="noopener noreferrer">
-
-              ZiffyBees
-
-            </a>
+      </a>
 
 
-          </div>
+      <!-- Flipkart -->
 
-        </div>
+      <a class="edition edition-india"
+         href="#"
+         target="_blank"
+         rel="noopener noreferrer">
 
-      </div>
+        Flipkart
 
-    </section>
+      </a>
 
 
+      <!-- ZiffyBees -->
+
+      <a class="edition edition-india"
+         href="https://ziffybees.com/"
+         target="_blank"
+         rel="noopener noreferrer">
+
+        ZiffyBees
+
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
     <!-- ========================================================
          Scene 2
     ========================================================= -->
